@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+
+    <!--Box Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Linking Css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>K</span>aviyalagan</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <div class="ic">
+                    <i class='bx bx-menu' onclick="openmenu()"></i>
+                </div>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi Im <span>Kaviyalagan</span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/imagePP.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I have completed a comprehensive 6-month full-stack development course specializing in Python, alongside proficiency in C and Python programming languages. With a background in front-end development, I am adept in HTML, CSS, and JavaScript. Additionally, I gained practical experience through an internship at Technook focused on data science.
+
+                        My project portfolio includes:
+                        
+                        Detection of diseased tea leaves using image processing techniques.
+                        Development of an Alzheimer's disease patient monitoring system utilizing data analytics.
+                        Implementation of a facial recognition-based attendance system.
+                        These experiences have equipped me with a strong foundation in both front-end and back-end technologies, making me well-prepared for challenges in software development and data science domains.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Web Interfaces</li>
+                            <li><span>App Developer</span><br>Building Android/ios apps</li>
+                            <li><span>Software Developer</span><br>Softeware Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Full stack Development at T4teq Software Solutions</li>
+                            <li><span>2024</span><br>University College of Engineering , Trichy</li>
+                            <li><span>2020</span><br>Best Matriculation Higher Secondary School</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Developer</span><br>Fresher - Designing Web Interfaces (completed course in
+                                T4teq Software Solutions)</li>
+                            <li><span>App Developer</span><br>Fresher - Building Android/ios apps (completed course in
+                                T4teq Software Solutions)</li>
+                            <li><span>Software Developer</span><br>Fresher - Softeware Development (completed course in
+                                T4teq Software Solutions)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services  -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Web Design</h2>
+                    <p>Designed a modern, responsive website for focusing on seamless user experience and visual impact. The project demonstrates my expertise in delivering effective, high-quality web solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class='bx bx-barcode-reader'></i>
+                    <h2>App Development</h2>
+                    <p>Developed an App, a user-friendly app featuring [key functionality], which increased user engagement by high Percentage.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h2>Software Development</h2>
+                    <p>Designed and built Software, integrating specific features or technologies, which streamlined process or task and reduced issue, e.g., bugs or load times by metric.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>E-comerce website</h3>
+                        <p>The website connects you to the Dress collection world.</p>
+                        <a href="https://kaviyalagan.github.io/Frontend-Projects/Nastrae-Ecomerce/"><i class='bx bx-link-external'></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Movies Website</h3>
+                        <p>This Website contains Movies collections</p>
+                        <a href="https://kaviyalagan.github.io/Frontend-Projects/Movies/"><i class='bx bx-link-external'></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.webp" alt="">
+                    <div class="layer">
+                        <h3>Booksky</h3>
+                        <p>You can upload short details about your own books</p>
+                        <a href="https://kaviyalagan.github.io/Frontend-Projects/Booksky/booksky"><i class='bx bx-link-external'></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact  -->
+    <div id="contact">
+        <div class="conatiner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class='bx bxl-gmail'></i>kaviyalagan71@gmail.com</p>
+                    <p><i class='bx bxs-phone-incoming'></i>8754073749</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/kaviyalagan.kaviyalagan.92?mibextid=ZbWKwL"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="https://www.instagram.com/k.a.v.i.s.m/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/Kaviyalagan"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/kaviyalagan71/"><i class='bx bxl-linkedin-square'></i></a>
+                    </div>
+                    <div>
+                        <a href="images/Kavi-Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class='bx bx-copyright'></i> copyright Kaviyalagan . Made by Me <i class='bx bxs-heart'></i></p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxziXEnPdcuHqSqweWTc7kK9CQL1AFA1jBmCxhWKkbl_GdaF3hEytbm16WFFJp1DuM9/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent sucessfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+    </script>
+
+</body>
+
+
+</html>
